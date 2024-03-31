@@ -1,6 +1,8 @@
 import React from "react";
 
+
 function MyProfile() {
+    
     return (
         <div>
             <div className="w-full bg-white p-10">
@@ -40,6 +42,7 @@ function MyProfile() {
                 <h2 role="heading" aria-label="enter Personal data" className="text-xl font-semibold leading-7 text-gray-800 mt-10">
                     Personal data
                 </h2>
+
                 <p className="text-sm font-light leading-none text-gray-600 mt-0.5">Your details and place of birth</p>
                 <div className="mt-8 md:flex items-center">
                     <div className="flex flex-col">
@@ -61,6 +64,7 @@ function MyProfile() {
                         <input type="number" tabIndex={0} aria-label="Enter phone number" className="w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200" defaultValue="+81 839274" />
                     </div>
                 </div>
+
                 <div className="mt-12 md:flex items-center">
                     <div className="flex flex-col">
                         <label className="mb-3 text-sm leading-none text-gray-800">Date of birth</label>
@@ -71,6 +75,7 @@ function MyProfile() {
                         <input type="name" tabIndex={0} aria-label="Enter place of birth" className="w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200" defaultValue="San Diego, CA, USA" />
                     </div>
                 </div>
+
                 <div className="mt-12">
                     <div className="py-4 flex items-center">
                         <div className="bg-white dark:bg-gray-800 border rounded-sm border-gray-400 dark:border-gray-700 w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
@@ -98,5 +103,6 @@ function MyProfile() {
         </div>
     );
 }
+
 
 export default MyProfile;

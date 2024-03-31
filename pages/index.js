@@ -7,11 +7,12 @@ import ProductByCategory from "Components/Products/ProductByCategory"
 
 export default function Home() {
   return (
-    <div className=''>
+    <div>
       <FeatureProducts />
       <RecentProducts />
 
           <TopSellings />
+
       <ProductByCategory /> 
     </div>
   )

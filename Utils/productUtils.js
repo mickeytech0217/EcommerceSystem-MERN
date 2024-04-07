@@ -22,3 +22,9 @@ export const getFeaturedProducts = (products) => {
     return where(products, { 'is_featured': true })
 
 }
+
+// @sweetdev has added
+export const getAllProducts = (products) => {
+    if (isEmpty(products)) return products
+    return where(products, {  })
+}
